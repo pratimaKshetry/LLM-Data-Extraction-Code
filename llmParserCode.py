@@ -1,5 +1,5 @@
 #Original Author: Pratima Kshetry
-#Part of this work is done to extract all the cardiac measurements using LLM
+#Part of this work is done to extract all the any qualitative /quantitative measurements from any unstructured notes using LLM
 #In the past, Rule based techniques and statistical technique were used for data extraction
 #Such method are useful when data to be extracted has exact known keys and some liklihood
 #With LLM this issue can be resolved by extracting all the measurements needed and build key dictionary upon them
@@ -347,8 +347,8 @@ def processDataInBatchFromFolder(folder_path,outJsonFilePath):
 #-************************************************************************************************************************************************************************#              
 #main function
 def main():     
-    srcfolder=r"C:\Users\pkshetry\Documents\Pratima\batch"
-    jsonout=r"C:\Users\pkshetry\Documents\Pratima\output"  
+    srcfolder=r"H:\Pratima\batch"
+    jsonout=r"H:\Pratima\output"  
     processDataInBatchFromFolder(srcfolder,jsonout)  
         
 
