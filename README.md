@@ -1,4 +1,4 @@
-This repository provides a GPT-powered framework for extracting quantitative and qualitative measurements from clinical notes.
+This repository provides a GPT-powered framework for extracting quantitative and qualitative measurements from any kind of unstructured notes.
 
 The extraction logic is fully prompt-driven — you can easily customize it to pull any measurement type or adapt it for different kinds of clinical text.
 
